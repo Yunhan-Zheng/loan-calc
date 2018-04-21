@@ -9,9 +9,13 @@ import AppliedRoute from "./components/AppliedRoute";
 import Loading from './components/Loading';
 
 const AsyncHome = Loadable({
-    loader: () => import("./containers/Home"),
-    loading: Loading
-  });
+                  
+  
+  
+  
+  loader: () => import("./containers/Home"),
+    loading: 
+    Loading});
 // const AsyncLogin = asyncComponent(() => import("./containers/Login"));
 // const AsyncNotes = asyncComponent(() => import("./containers/Notes"));
 // const AsyncSignup = asyncComponent(() => import("./containers/Signup"));
